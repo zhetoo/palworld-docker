@@ -31,4 +31,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: kagurazakanyaa/palworld:${{ env.RELEASE_VERSION }}
+          tags: zhetoo/palworld:${{ env.RELEASE_VERSION }}
